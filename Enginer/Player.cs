@@ -8,12 +8,16 @@ namespace Enginer
 {
     public class Player : LivingCreature
     {
-       
         public int Gold { get; set; }
         public int ExpirencePoints { get; set; }
-
         public int Level { get; set; }
 
-
+        public Player(int currentHitPoints, int maximumHitPoints, int gold, int expirencePoints, int level)
+            : base(currentHitPoints, maximumHitPoints)
+        {
+            Gold = gold;
+            ExpirencePoints = expirencePoints;
+            Level = level;
+        }
     }
 }
