@@ -13,6 +13,7 @@ namespace Enginer
         public string Description { get; set; }
         public int RewardExpireancePoints { get; set; }
         public int RewardGold { get; set; }
+        public Item RewardItem { get; set; }
 
         public Quest(int id, string name, string description, int rewardExpireancePoints, int rewardGold) 
         {
