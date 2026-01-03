@@ -8,7 +8,7 @@ namespace SuperAdventure
         {
             InitializeComponent();
 
-            Location location = new Location(1, "Home", "This is your house.");
+            Location location = new Enginer.Location(1, "Home", "This is your house.");
 
             Location test1 = new Location(1, "Your House", "This is your house");
 
