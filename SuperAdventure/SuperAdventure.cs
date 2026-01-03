@@ -22,7 +22,7 @@ namespace SuperAdventure
         {
             InitializeComponent();
 
-            
+
 
 
             _player = new Player(10, 10, 20, 0, 1);
@@ -39,6 +39,41 @@ namespace SuperAdventure
             lblLevel.Text = _player.Level.ToString();
         }
 
-        
+        private void cboWeapons_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNorth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+        private void btnEast_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSouth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnWest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUseWeapon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUsePotion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
