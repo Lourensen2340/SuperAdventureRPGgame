@@ -22,7 +22,7 @@ namespace SuperAdventure
         {
             InitializeComponent();
 
-            
+
 
 
             _player = new Player(10, 10, 20, 0, 1);
@@ -39,6 +39,9 @@ namespace SuperAdventure
             lblLevel.Text = _player.Level.ToString();
         }
 
-        
+        private void cboWeapons_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
